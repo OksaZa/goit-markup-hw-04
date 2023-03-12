@@ -74,9 +74,11 @@ body {
     line-height: 1.17;
     color: var(--color-brand);
 }
+.header-logo {
+    margin-right: 76px;
+}
 .logo-dark {
     color: var(--color-primary);
-    margin-right: 76px;
 }
 .logo-invert {
     color: var(--color-footer-logo-invert);
@@ -163,9 +165,9 @@ body {
 }
 .features-list-icon-box {
     display: flex;
+    height: 112px;
     justify-content: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    align-items: center;
     border-radius: 4px;
     background-color: var(--color-secondary-background);
     margin-bottom: 8px;
@@ -259,13 +261,13 @@ body {
 }
 .customers-list-link:hover,
 .customers-list-link:focus {
-    border-color: var(--color-active);
+    border-color: var(--color-active);   
 }
 .customers-list-icon {
     fill: var(--color-icon-dark);
 }
-.customers-list-icon:hover,
-.customers-list-icon:focus {
+.customers-list-link:hover .customers-list-icon,
+.customers-list-link:focus .customers-list-icon {
     fill: var(--color-active);
 }
 /* Footer */
